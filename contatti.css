@@ -1,0 +1,164 @@
+body{
+    margin: 0px;
+    color: rgba(13, 59, 102, 1);
+}
+h1{
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-size: 66px;
+    color: rgba(20, 7, 78, 1)!important;
+}
+h5{
+    font-size: 18px;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+h4{
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+h6{
+    font-size: 16px;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+}
+.container-logo{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    height: 280px;
+    width: 300px;
+}
+.container-link{
+    justify-content: center;
+    display: flex;
+}
+.link-navbar , a{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 30%;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(20, 7, 78, 1);
+}
+.titolo-paragrafo{
+    border-bottom: 2px solid rgba(20, 7, 78, 1);
+    color:  rgba(13, 59, 102, 1);
+    width: 25%;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.titolo-paragrafo h1{
+    transform: translateX(200px);
+    margin: 0%;
+}
+.paragrafo2{
+    transform: translateX(180px);
+}
+.testo{
+    width: 60%;
+}
+.paragrafo2 .testo{
+    font-size: 23px;
+    font-weight: normal;
+    width: 45%;
+}
+.testo h6{
+    margin-top: 0%;
+}
+.sottotitolo2 h6{
+    margin: 0%;
+}
+.sottotitolo2 h5{
+    margin: 0%;
+    margin-top: 50px;
+}
+.sottotitolo2 h6{
+    margin: 0%;
+}
+.box-info{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.box-width{
+    width: 40%;
+    padding: 60px;
+    border: 5px solid lightgray;
+    box-shadow: 15px 20px 3px  lightgray;
+    border-radius: 30px;
+}
+.icon-width{
+    justify-content: space-evenly;
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+}
+.icone h5{
+    color: rgba(164, 36, 59, 1);
+}
+.box-faq{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    
+}
+.faq-width{
+    width: 60%;
+    padding: 80px;
+    background-color: rgba(32, 30, 80, 1);
+    color: white;
+    border-radius: 90px;
+    display: flex;
+    justify-content: center;
+}
+.sottotitolo2{
+    margin-bottom: 30px;
+}
+.sottotitolo3 a{
+    color: white;
+    display: inline-block;
+}
+.sottotitolo3 h6{
+    margin: 0%;
+}
+#or{
+    margin: 0%;
+}
+#faq-mt{
+    margin-top: 35px;
+}
+footer{
+    display: flex;
+    background-color: rgba(20, 7, 78, 1);;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    
+}
+.link{
+    width: 200px;
+    height: 60px;
+    margin-top: 30px;
+}
+.link a{
+    color: white;
+    width: 200px;
+}
+.info{
+    color: white;
+    padding: 16px;
+    width: 200px;
+}
+.footer .info{
+    margin-top: 70px;
+    margin-right: 350px;
+
+}

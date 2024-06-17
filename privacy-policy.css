@@ -1,0 +1,161 @@
+body{
+    margin: 0px;
+    color: rgba(13, 59, 102, 1);
+}
+h1{
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-size: 66px;
+    margin: 0%;
+}
+h5{
+    font-size: 18px;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+
+}
+h4{
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+h6{
+    font-size: 16px;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+}
+.container-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    height: 280px;
+    width: 300px;
+}
+.container-link{
+    justify-content: center;
+    display: flex;
+}
+.link-navbar , a{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 30%;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(20, 7, 78, 1);
+}
+.titolo-paragrafo {
+    border-bottom: 2px solid rgba(20, 7, 78, 1);
+    color:   rgba(20, 7, 78, 1);
+    width: 25%;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.titolo-paragrafo h1{
+    transform: translateX(200px);
+    margin: 0%;
+}
+.testo-center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.paragrafo2{
+    transform: translateX(180px);
+}
+.paragrafo2 .testo{
+    font-size: 23px;
+    font-weight: normal;
+    width: 45%;
+    margin-bottom: 100px;
+}
+.testo{
+    width: 60%;
+
+    justify-content: center; 
+}
+.testo h5{
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0%;
+}
+.testo h6{
+    margin-top: 0%;
+}
+.sottotitolo1{
+    transform: translateX(120px);
+}
+.sottotitolo2{
+    width: 40%;
+}
+.paragrafo3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sottotitolo1 h4{
+    padding: 8px;
+    margin: 0%;
+    font-size: 30px;
+
+}
+.sottotitolo2 h5{
+    margin:0%;
+   
+}
+.sottotitolo2 h6{
+    margin: 0%;
+    margin-bottom: 30px;
+}
+.text-line{
+    width: 60%;
+    display: flex;
+    transform: translate(332px, 0px);
+}
+.alert{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+
+}
+.alert h5{
+    font-size: 25px;
+    
+}
+.line{
+    height: 2px;
+    width: 140px;
+    background-color: rgba(20, 7, 78, 1);
+    align-self: center;
+    transform: translate(300px, 30px);
+}
+
+footer{
+    display: flex;
+    background-color: rgba(20, 7, 78, 1);;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    
+}
+.link{
+    width: 200px;
+    height: 60px;
+    margin-top: 30px;
+}
+.link a{
+    color: white;
+    width: 200px;
+}
+.info{
+    color: white;
+    padding: 16px;
+    width: 200px;
+}
+.footer .info{
+    margin-top: 70px;
+    margin-right: 350px;
+}
